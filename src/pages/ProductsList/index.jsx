@@ -9,8 +9,8 @@ import styles from "./index.module.css";
 const columns = [
   { field: "id", headerName: "ID", width: 90 },
   {
-    field: "name",
-    headerName: "Nombre",
+    field: "title",
+    headerName: "Título",
     width: 150,
     editable: true,
   },
