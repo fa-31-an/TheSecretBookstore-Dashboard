@@ -4,7 +4,7 @@ export const Header = ({userName = "Moni"}) => {
   return (
     <>
       {/* <!-- Topbar --> */}
-      <nav className="navbar navbar-expand navbar-dark bg-dark topbar mb-4 static-top shadow">
+      <nav className="navbar navbar-expand topbar mb-4 static-top shadow" style={{ backgroundColor: "#78288C" }}>
         {/* <!-- Sidebar Toggle (Topbar) --> */}
 
         {/* <!-- Topbar Navbar --> */}
