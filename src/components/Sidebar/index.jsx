@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { SidebarLogo } from "./components/Logo";
 import Logo from "../../assets/logo.png";
 import { NavItem } from "./components/NavItem";
 
-const TITLE = "Dashboard Artística";
+const TITLE = "Dashboard The Secret Bookstore";
 
 export const Sidebar = () => {
   return (
@@ -14,7 +14,7 @@ export const Sidebar = () => {
         id="accordionSidebar"
       >
         {/* <!-- Sidebar - Brand --> */}
-        <SidebarLogo brand="The secret Book Store" logo={Logo} />        
+        <SidebarLogo brand="The Secret Bookstore" logo={Logo} />        
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider my-0" />
 
@@ -34,8 +34,11 @@ export const Sidebar = () => {
 
         {/* <!-- Nav Items --> */}
        
-        <NavItem href="/products" icon="fa-box" name="ABM - Productos"/>
-        <NavItem href="/usuarios" icon="fa-users" name="ABM - Usuarios"/>
+        <NavItem href="/products" icon="fa-book" name="ABM - Libros"/>
+        <NavItem href="/users" icon="fa-users" name="ABM - Usuarios"/>
+        <NavItem href="/editorials" icon="fa-users" name="ABM - Editoriales"/>
+        <NavItem href="/genres" icon="fa-users" name="ABM - Géneros"/>
+        <NavItem href="/languages" icon="fa-users" name="ABM - Idiomas"/>
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider d-none d-md-block" />
