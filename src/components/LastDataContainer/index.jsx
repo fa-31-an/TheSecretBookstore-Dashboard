@@ -15,8 +15,8 @@ export const LastDataContainer = ({type, data}) => {
 		if (type === "product") {
 			setInfoToDisplay({
 				title: "Último producto agregado: ",
-				name: data.name,
-				imageUrl: data.images[0].image,
+				name: data.title,
+				imageUrl: data.cover,
 				description: data.description
 			})
 		}
@@ -24,7 +24,7 @@ export const LastDataContainer = ({type, data}) => {
 		if(type === "user") {
 			setInfoToDisplay({
 				title: "Último usuario agregado: ",
-				name: data.name,
+				name: data.firstName,
 				imageUrl: data.avatar,
 				description: data.email
 			})
