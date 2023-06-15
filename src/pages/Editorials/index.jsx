@@ -50,7 +50,7 @@ export const Editorials = () => {
 	return (
 		<section>
 			{alert.isOpen && (<Alert alert={alert} setAlert={setAlert} />)}
-			<Typography paddingLeft={10} variant="h4">Lista de idiomas</Typography>
+			<Typography paddingLeft={10} variant="h4">Lista de editoriales</Typography>
 
 			<Box className={styles.tableContainer}>
 				<DataGrid
