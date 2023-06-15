@@ -2,6 +2,7 @@
 import { SidebarLogo } from "./components/Logo";
 import Logo from "../../assets/logo.png";
 import { NavItem } from "./components/NavItem";
+import styles from "/";
 
 const TITLE = "Dashboard The Secret Bookstore";
 
@@ -10,8 +11,8 @@ export const Sidebar = () => {
     <>
       {/* <!-- Sidebar --> */}
       <ul
-        className="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"
-        id="accordionSidebar"
+        className="navbar-nav  sidebar accordion"
+        id="accordionSidebar" style={{ backgroundColor: "#78288C" }}
       >
         {/* <!-- Sidebar - Brand --> */}
         <SidebarLogo brand="The Secret Bookstore" logo={Logo} />        
