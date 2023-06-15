@@ -4,6 +4,7 @@ export const getProducts = async () => {
     try {
         const response = await fetch(BASE_PRODUCTS_URL_API);
         const json = await response.json();
+        console.log(json);
         return json;
         
     } catch (error) {

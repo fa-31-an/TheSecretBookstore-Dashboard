@@ -1,20 +1,21 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { SidebarLogo } from "./components/Logo";
 import Logo from "../../assets/logo.png";
 import { NavItem } from "./components/NavItem";
+import styles from "/";
 
-const TITLE = "Dashboard Artística";
+const TITLE = "Dashboard The Secret Bookstore";
 
 export const Sidebar = () => {
   return (
     <>
       {/* <!-- Sidebar --> */}
       <ul
-        className="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"
-        id="accordionSidebar"
+        className="navbar-nav  sidebar accordion"
+        id="accordionSidebar" style={{ backgroundColor: "#78288C" }}
       >
         {/* <!-- Sidebar - Brand --> */}
-        <SidebarLogo brand="The secret Book Store" logo={Logo} />        
+        <SidebarLogo brand="The Secret Bookstore" logo={Logo} />        
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider my-0" />
 
@@ -34,8 +35,11 @@ export const Sidebar = () => {
 
         {/* <!-- Nav Items --> */}
        
-        <NavItem href="/products" icon="fa-box" name="ABM - Productos"/>
-        <NavItem href="/usuarios" icon="fa-users" name="ABM - Usuarios"/>
+        <NavItem href="/products" icon="fa-book" name="Libros"/>
+        <NavItem href="/users" icon="fa-users" name="Usuarios"/>
+        <NavItem href="/editorials" icon="fa-users" name="Editoriales"/>
+        <NavItem href="/genres" icon="fa-users" name="Géneros"/>
+        <NavItem href="/languages" icon="fa-users" name="Idiomas"/>
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider d-none d-md-block" />
