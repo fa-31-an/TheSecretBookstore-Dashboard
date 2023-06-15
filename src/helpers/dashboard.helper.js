@@ -18,7 +18,7 @@ export const generateCards = (products, users) => {
     },
     {
       id: 3,
-      quantity: Object.keys(products.countByCategory).length,
+      quantity: Object.keys(products.countByGenre).length,
       color: "danger",
       title: "Total de categorias",
       icon: "fa-layer-group",

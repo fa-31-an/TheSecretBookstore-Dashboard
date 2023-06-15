@@ -59,6 +59,7 @@ export const Dashboard = () => {
 
     const { products: productsList } = products;
     const { users: usersList } = users;
+    if(products === undefined) return; 
     
     const cards = generateCards(products, users);
     
@@ -96,9 +97,6 @@ export const Dashboard = () => {
       <div className="row">
         <LastDataContainer type="product" data={lastProductCreated} />
         <LastDataContainer type="user" data={lastUserCreated} />
-      </div>
-      <div className="row">
-            <CategoriesChart countByCategory={products?.countByCategory}/>
       </div>
     </div>
   );
