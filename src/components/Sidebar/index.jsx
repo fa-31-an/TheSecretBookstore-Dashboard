@@ -3,7 +3,7 @@ import { SidebarLogo } from "./components/Logo";
 import Logo from "../../assets/logo.png";
 import { NavItem } from "./components/NavItem";
 
-const TITLE = "Dashboard Artística";
+const TITLE = "Dashboard The Secret Book Store";
 
 export const Sidebar = () => {
   return (
