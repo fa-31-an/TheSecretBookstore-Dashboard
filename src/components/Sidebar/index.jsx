@@ -34,11 +34,11 @@ export const Sidebar = () => {
 
         {/* <!-- Nav Items --> */}
        
-        <NavItem href="/products" icon="fa-book" name="ABM - Libros"/>
-        <NavItem href="/users" icon="fa-users" name="ABM - Usuarios"/>
-        <NavItem href="/editorials" icon="fa-users" name="ABM - Editoriales"/>
-        <NavItem href="/genres" icon="fa-users" name="ABM - Géneros"/>
-        <NavItem href="/languages" icon="fa-users" name="ABM - Idiomas"/>
+        <NavItem href="/products" icon="fa-book" name="Libros"/>
+        <NavItem href="/users" icon="fa-users" name="Usuarios"/>
+        <NavItem href="/editorials" icon="fa-users" name="Editoriales"/>
+        <NavItem href="/genres" icon="fa-users" name="Géneros"/>
+        <NavItem href="/languages" icon="fa-users" name="Idiomas"/>
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider d-none d-md-block" />
